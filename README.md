@@ -1,24 +1,18 @@
-# Brook Code Theme Official Website
+# Guna Transport
 
-_"Brook Code Theme official website | The best clean code editor theme that combine simplicity and clean look"_
+_"Serve better transportation for events, holiday and wedding"_
 
 ## About
 
-This project is about the official website of Brook Code Theme. The website used to showcase the product and to become the landing page for the users who want to know about the product. Build using simple and clean look to ensure the user can focus on the content.
+This project is about the official website of Guna Transport. The website used to showcase the services and to become the landing page for the users who want to know about the busines. Build using simple and clean look to ensure the user can focus on the content.
 
-You can access this site on _[https://brookcodetheme.vercel.app](https://brookcodetheme.vercel.app)_
+You can access this site on _[https://gunatransport.com](https://gunatransport.com)_
 
 Screenshots:
 
-![Banner](https://cdn.hashnode.com/res/hashnode/image/upload/v1732187828243/cc1d78a8-387f-457e-841e-20f9528588e9.png)
-
-![Banner](https://cdn.hashnode.com/res/hashnode/image/upload/v1732548343657/5d9b090f-4127-4f49-b4d6-c6f583aa3db9.png)
-
-![Banner](https://cdn.hashnode.com/res/hashnode/image/upload/v1732548350443/43f4e5d7-4fda-4ad8-ab92-e57a78b11e7a.png)
-
 ## Motivation
 
-This project is built to support the product and allow the user to know more about the product. Also allow the public know about the product.
+This project is used to create and build business site for Guna Transport that charge the business and allow to convert the audiences into client.
 
 ## Stacks
 
@@ -31,7 +25,7 @@ Since building this project here are list about stack, site, tech and any librar
 - [Shadcn UI](https://ui.shadcn.com)
 - [Radix UI](https://radix-ui.com)
 - [PostHog](https://posthog.com)
-- [Framer Motion](https://www.framer.com/motion)
+- [Motion](https://www.motion.dev)
 - [React](https://reactjs.org)
 - Etc.
 
@@ -39,11 +33,10 @@ Since building this project here are list about stack, site, tech and any librar
 
 Here are some features in this project:
 
-- Waitinglist
 - Landing Page
 - Responsive
 - Full SEO
-- Support Light and Dark Mode
+- Modern design & elegant
 - Analutics with PostHog
 
 ## Documentation
