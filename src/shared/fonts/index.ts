@@ -1,7 +1,7 @@
-import { Inter } from 'next/font/google'
+import { Manrope } from 'next/font/google'
 
-export const inter = Inter({
+export const manrope = Manrope({
   display: 'swap',
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-manrope',
 })

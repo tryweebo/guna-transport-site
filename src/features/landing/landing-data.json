@@ -1,0 +1,40 @@
+{
+  "heroGalleries": [
+    "https://images.unsplash.com/photo-1625756598235-b9553edbe17e?q=80&w=2734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1542897644-e04428948020?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGJhbGklMjBjZXJlbW9uaWFsfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1647269826024-2bf241770b6b?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2838&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1478359900967-91ec0c6edc60?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  ],
+  "faqs": [
+    {
+      "question": "Apa saja jenis transportasi yang disediakan?",
+      "answer": "Kami menyediakan segala jenis mobil kecil, mobile luxury(mewah) dan jug bus. Semuanya bisa diatur sesuai kebutuhan dan keperluan kamu. Kami selalu menyediakan apa yang kamu perlukan."
+    },
+    {
+      "question": "Bagaimana caranya memesan?",
+      "answer": "Mudah, pertama kamu bisa tanya tanya masalah harga ke kontak kami, selanjutnya kamu bisa mendiskusikan perjalanan kamu dan mobil jenis apa yang akan kamu pakai."
+    },
+    {
+      "question": "Bisakah menyediakan transportasi untuk banyak orang?",
+      "answer": "Tentu saja, kami lebih memilih melayani banyak orang sekaligus misal untuk upacara, liburan dan lain sebagainya. Tapi kami juga menyediakan mobile harian untuk sedikit penumpang."
+    },
+    {
+      "question": "Kemana saja rute perjalanan yang di lalui?",
+      "answer": "Untuk saat ini kami hanya bisa melayanimu dari ke Jawa, Bali, dan lombok. Untuk tujuan lain harap didiskusikan dulu ke admin kami. Mudah kok."
+    },
+    {
+      "question": "Berapa biaya di setiap perjalanan?",
+      "answer": "Tergantung jenis mobil yang kamu pakai, dan kebutuhan kamu. Kami selalu menyediakan apa yang kamu perlukan."
+    },
+    {
+      "question": "Apakah pesanan bisa disesuaikan dengan keperluan?",
+      "answer": "Ya, mulai dari makanan, minum, hotel, dan lain sebagainya. Kami selalu menyediakan apa yang kamu perlukan."
+    },
+    {
+      "question": "Apakah bisa untuk berbagai acara?",
+      "answer": "Yup, apapapun tiper perjalananmu kami selalu siap. Misal, liburan, upacara,pernikahan, dan lain sebagainya."
+    }
+  ]
+}

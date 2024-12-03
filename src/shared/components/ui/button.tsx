@@ -4,7 +4,7 @@ import { cva, type VariantProps } from 'class-variance-authority'
 import { mergeClass } from '@shared/utils/helper'
 
 const buttonVariants = cva(
-  'flex items-center justify-center font-medium whitespace-nowrap text-sm !leading-none transition-all duration-300 gap-2 group relative',
+  'flex items-center justify-center font-semibold whitespace-nowrap text-sm !leading-none transition-all duration-300 gap-2 group relative',
   {
     variants: {
       variant: {
@@ -15,9 +15,9 @@ const buttonVariants = cva(
           'bg-secondary text-secondary-foreground border hover:bg-secondary/60 border-border',
       },
       size: {
-        base: 'h-11 px-4 rounded-xl',
-        sm: 'h-9 px-4 rounded-lg text-xs',
-        lg: 'h-14 px-5 rounded-xl',
+        base: 'h-11 px-4 rounded-full',
+        sm: 'h-9 px-4 rounded-lg text-sm',
+        lg: 'h-14 px-7 rounded-full',
         icon: 'h-10 w-10 rounded-2xl',
       },
     },

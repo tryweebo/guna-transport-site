@@ -1,6 +1,16 @@
 import * as React from 'react'
 import { Metadata } from 'next'
 import * as defaultMetadata from '@shared/libs/shared-metadata'
+import {
+  BenefitSection,
+  CTASection,
+  FAQsSection,
+  GallerySection,
+  HeroSection,
+  PricingSection,
+  ServiceSection,
+  TestimonialSection,
+} from '@features/landing'
 
 export const metadata: Metadata = {
   title: 'Guna Transport',
@@ -21,5 +31,16 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage(): React.ReactElement {
-  return <div className="flex flex-col gap-20"></div>
+  return (
+    <div className="flex flex-col">
+      <HeroSection />
+      <BenefitSection />
+      <ServiceSection />
+      <GallerySection />
+      <TestimonialSection />
+      <PricingSection />
+      <FAQsSection />
+      <CTASection />
+    </div>
+  )
 }

@@ -6,6 +6,8 @@ import config from '@shared/libs/config'
 import * as defaultMetadata from '@shared/libs/shared-metadata'
 import { PosthogProvider } from '@shared/providers/posthog-provider'
 import { AnimationProvider } from '@shared/providers/animation-provider'
+import { Header } from '@shared/components/common/header'
+import { Footer } from '@shared/components/common/footer'
 
 interface RootLayoutProps {
   children: React.ReactNode
@@ -58,13 +60,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fonts.inter.variable}`}
+      className={`${fonts.manrope.variable}`}
       suppressHydrationWarning
     >
       <PosthogProvider>
         <AnimationProvider>
           <body suppressHydrationWarning>
-            <>{children}</>
+            <Header />
+            {children}
+            <Footer />
           </body>
         </AnimationProvider>
       </PosthogProvider>
