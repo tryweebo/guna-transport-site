@@ -4,7 +4,7 @@ import { NavigationItem } from './navigation'
 export function Footer(): React.ReactElement {
   return (
     <footer className="border-t border-border" id="footer">
-      <div className="px-16 py-8 flex items-center justify-between">
+      <div className="px-5 tablet:px-16 py-4 tablet:py-8 flex flex-col tablet:flex-row tablet:items-center justify-between gap-5">
         <div className="flex">
           <span className="font-medium text-sm">
             Copyright &copy; 2024 Guna Transport
@@ -12,7 +12,7 @@ export function Footer(): React.ReactElement {
         </div>
 
         <div className="flex">
-          <ul className="flex items-center gap-5">
+          <ul className="flex flex-wrap items-center gap-y-2 gap-5">
             <NavigationItem href="/moments">Catatan perjalanan</NavigationItem>
             <NavigationItem href="/trans-list">Daftar kendaraan</NavigationItem>
             <NavigationItem href="/privacy">Privasi</NavigationItem>

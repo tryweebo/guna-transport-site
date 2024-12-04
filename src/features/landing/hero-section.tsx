@@ -3,10 +3,10 @@ import { SectionLabel } from '@shared/components/common/section-label'
 import { Button } from '@shared/components/ui/button'
 import Link from 'next/link'
 import * as React from 'react'
-import landingData from './landing-data.json'
+import data from './landing-data.json'
 import { HeroGalleryItem } from './hero-gallery-item'
 
-const heroGalleries = landingData.heroGalleries as string[]
+const heroGalleries = data.heroGalleries as string[]
 
 export function HeroSection(): React.ReactElement {
   return (

@@ -20,7 +20,10 @@ export function FAQItem({
   position,
 }: FAQItemProps): React.ReactElement {
   return (
-    <AccordionItem value={`item-${position}`}>
+    <AccordionItem
+      value={`item-${position}`}
+      className="transition-all duration-300 hover:-translate-y-1"
+    >
       <AccordionTrigger>{question}</AccordionTrigger>
       <AccordionContent>{answer}</AccordionContent>
     </AccordionItem>

@@ -1,14 +1,14 @@
 import { Marquee } from '@shared/components/animation/marquee'
 import { SectionLabel } from '@shared/components/common/section-label'
 import * as React from 'react'
-import landingData from './landing-data.json'
-import { HeroGalleryItem } from './hero-gallery-item'
+import data from './landing-data.json'
+import { TestimonialData, TestimonialItem } from './testimonial-item'
 
-const heroGalleries = landingData.heroGalleries as string[]
+const testimonials = data.testimonials as TestimonialData[]
 
 export function TestimonialSection(): React.ReactElement {
   return (
-    <section className="flex flex-col py-20 tablet:py-36" id="testimonial">
+    <section className="flex flex-col py-20 tablet:py-36" id="testimonials">
       <div className="flex flex-col items-center container mx-auto px-5 tablet:px-0">
         <SectionLabel>Ulasan dari pelanggan</SectionLabel>
 
@@ -17,17 +17,21 @@ export function TestimonialSection(): React.ReactElement {
         </h2>
 
         <p className="text-foreground/60 !leading-relaxed w-full tablet:w-6/12 text-center mt-10 tablet:px-10">
-          Kamu bisa lihat paket harga untuk perjalanan kamu, kami juga
-          menawarkan paket kustom sesuai kebutuhan kamu. Jadi semuanya murah dan
-          bisa didiskusikan.
+          Kami memberikan layanan yang memuaskan, kamu bisa melihat apa yang
+          pelanggan kita katakan mengenai perjalanan mereka.
         </p>
       </div>
 
       <div className="flex mt-36">
-        <div className="flex relative w-full">
+        <div className="flex flex-col relative w-full">
           <Marquee pauseOnHover>
-            {heroGalleries.map((image, index) => (
-              <HeroGalleryItem image={image} position={index + 1} key={index} />
+            {testimonials.map((item, index) => (
+              <TestimonialItem data={item} key={index} />
+            ))}
+          </Marquee>
+          <Marquee pauseOnHover reverse>
+            {testimonials.map((item, index) => (
+              <TestimonialItem data={item} key={index} />
             ))}
           </Marquee>
         </div>

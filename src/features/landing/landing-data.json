@@ -1,11 +1,16 @@
 {
   "heroGalleries": [
+    "https://images.unsplash.com/photo-1572675339312-3e8b094a544d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1625756598235-b9553edbe17e?q=80&w=2734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1542897644-e04428948020?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGJhbGklMjBjZXJlbW9uaWFsfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1571046314604-e32adfc8e11e?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1647269826024-2bf241770b6b?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2838&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1478359900967-91ec0c6edc60?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "https://images.unsplash.com/photo-1478359900967-91ec0c6edc60?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1590951360207-317cb18098b3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1579985081815-efd0d0729c23?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1557223563-8db8e5e7d90b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   ],
   "faqs": [
     {
@@ -35,6 +40,126 @@
     {
       "question": "Apakah bisa untuk berbagai acara?",
       "answer": "Yup, apapapun tiper perjalananmu kami selalu siap. Misal, liburan, upacara,pernikahan, dan lain sebagainya."
+    }
+  ],
+  "plans": [
+    {
+      "title": "Paket Harian",
+      "description": "Cocok untuk perjalanan yang membutuhkan waktu yang lama dan jauh.",
+      "features": [
+        "Cocok untuk perjalan jauh",
+        "Cocok untuk group & banyak orang",
+        "Harga sesuai kebutuhan",
+        "Tersedia mobile, bus dan mobil luxury",
+        "Bisa pilih mobil apa saja",
+        "Lebih hemat & praktis"
+      ]
+    },
+    {
+      "title": "Paket PerJam",
+      "description": "Cocok untuk perjalanan dan travel singkat ketujuan yang kamu inginkan.",
+      "features": [
+        "Cocok untuk perjalanan singkat",
+        "Bisa pilih mobil apa saja",
+        "Tersedia mobile, bus dan mobil luxury",
+        "Lebih hemat & praktis",
+        "Cocok untuk individual",
+        "Sampai ketujuan lebih cepat",
+        "Pas untuk traveller & liburan"
+      ]
+    },
+    {
+      "title": "Atur sesuai kebutuhan",
+      "description": "Bisa tambahkan apa saja seperti konsumsi, minum, hotel, dan lain sebagainya.",
+      "features": [
+        "Cocok untuk perjalanan jauh",
+        "Bisa request sesuai kebutuhan",
+        "Harga bersahabat",
+        "Tersedia mobile, bus dan mobil luxury",
+        "Bisa pilih mobil apa saja",
+        "Lebih hemat & praktis"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Nyoman Sudarma",
+      "location": "Bangli, Bali",
+      "date": "25 Juni 2022",
+      "quote": "Kami sangat senang dengan layanan yang diberikan, sangat memuaskan dan juga sangat bermanfaat. Terima kasih."
+    },
+    {
+      "name": "Gede Budaya",
+      "location": "Denpasar, Bali",
+      "date": "21 Juli 2022",
+      "quote": "Sangat nyaman, kendaraan juga bersih dan supir ramah semua. Prosesnya sangat cepat dan terima kasih."
+    },
+    {
+      "name": "Putu agus juliana",
+      "location": "Ubud, Gianyar",
+      "date": "26 Juni 2022",
+      "quote": "Kendaraan sesuai, selain itu juga bersih dan ramah. Terima kasih."
+    },
+    {
+      "name": "Made Sukma",
+      "location": "Singaraja, Bali",
+      "date": "08 Agustur 2023",
+      "quote": "Semuanya aman, kami melakukan upacara ajar ajar, semuanya lancar, selain itu juga ramah. Terima kasih."
+    },
+    {
+      "name": "Kadek Sumardika",
+      "location": "Denpasar, Bali",
+      "date": "25 Juni 2022",
+      "quote": "Sangat nyaman, kendaraan juga bersih dan supir ramah semua. Prosesnya sangat cepat dan terima kasih."
+    }
+  ],
+  "serviceLocations": ["Jawa", "Bali", "Lombok"],
+  "services": [
+    {
+      "image": "https://images.unsplash.com/photo-1678875922927-0ef08326ee3d?q=80&w=2770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Upacara adat"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1571589246138-60dc080e4c09?q=80&w=2322&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Liburan"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1625756598235-b9553edbe17e?q=80&w=2734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Pernikahan"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1591825926827-bbf73deb9fb3?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Ajar ajar (Pengabenan)"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546484488-2a1430996887?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Acara"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Travel & tours"
+    }
+  ],
+  "benefits": [
+    {
+      "image": "https://images.unsplash.com/photo-1714292696681-87e963191463?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Perjalanan nyaman, bersih dan terjaga",
+      "description": " Di setiap perjalanan kami selalu memastikan setiap sudut mobile, kendaraan, kursi dan badan mobile bersih, rapi danwangi. Sehingga kamu nyaman untuk waktu yang lama."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1631035012469-751baca1d4a0?q=80&w=2834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3",
+      "title": "Kami sampai tepat waktu sampai tujuan kamu",
+      "description": "Kami selalu mencoba sampai tujuan yang kamu inginkan tepat waktu. Mengusahakan yang terbaik untuk kepuasan kamu di setiap perjalanan."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1705374104830-bbb99e8b77f8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Tanpa minimal biaya, selalu bisa membantu",
+      "description": "Kami selalu ingin membantu kemanapun kamu mau tanpa batas dan minimal biaya. Kami selalu bisa kapanpun kamu mau.Walaupun hanya untuk sedikit biaya."
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1620400588895-9b3c4ae9bdb0?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Supir berpengalaman dan perjalanan yang aman",
+      "description": "Setiap supir memiliki pengalaman dalam mengendarai mobil, bus. Sehingga kamu akan aman tanpa harus takut dengan insiden di perjalanan."
     }
   ]
 }

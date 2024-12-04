@@ -21,11 +21,11 @@ export function FAQsSection(): React.ReactElement {
           ditanyakan oleh beberapa pelanggan kami.
         </p>
 
-        <div className="flex items-center justify-center w-full mt-24">
+        <div className="flex items-center justify-center w-full mt-16 target:mt-24">
           <Accordion
             type="single"
             collapsible
-            className="flex flex-col w-5/12 gap-3"
+            className="flex flex-col w-full tablet:w-5/12 gap-3"
           >
             {faqs.map((item, index) => (
               <FAQItem data={item} position={index + 1} key={index} />

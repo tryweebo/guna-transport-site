@@ -16,6 +16,7 @@ export function SectionLabel({
         'font-semibold text-xs text-foreground/60 rounded-full border border-border px-4 py-2 bg-surface transition-all duration-300 hover:scale-95 cursor-pointer',
         className,
       )}
+      data-animation-target-id="section-label"
     >
       {children}
     </span>

@@ -1,74 +1,17 @@
+'use client'
+
 import { SectionLabel } from '@shared/components/common/section-label'
-import Image from 'next/image'
 import * as React from 'react'
+import data from './landing-data.json'
+import { ServiceData, ServiceItem } from './service-item'
+import { ServiceLocationItem } from './service-location-item'
 
-const services = [
-  {
-    image:
-      'https://images.unsplash.com/photo-1678875922927-0ef08326ee3d?q=80&w=2770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Upacara adat',
-  },
-  {
-    image:
-      'https://images.unsplash.com/photo-1571589246138-60dc080e4c09?q=80&w=2322&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Liburan',
-  },
-  {
-    image:
-      'https://images.unsplash.com/photo-1625756598235-b9553edbe17e?q=80&w=2734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Pernikahan',
-  },
-  {
-    image:
-      'https://images.unsplash.com/photo-1591825926827-bbf73deb9fb3?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Ajar ajar (Pengabenan)',
-  },
-]
-
-const locations: string[] = ['Jawa', 'Bali', 'Lombok']
-
-interface ServiceItemProps {
-  data: {
-    image: string
-    title: string
-  }
-}
-
-function ServiceItem({ data }: ServiceItemProps): React.ReactElement {
-  const { image, title } = data
-  return (
-    <div className="flex flex-col col-span-1 cursor-pointer transition-all duration-300 hover:-translate-y-1">
-      <picture className="relative overflow-hidden rounded-2xl w-full h-[452px]">
-        <Image
-          src={image}
-          alt="Image"
-          fill
-          className="object-cover transition-all duration-500 hover:scale-105"
-        />
-      </picture>
-
-      <span className="text-lg font-semibold !leading-none mt-6">{title}</span>
-    </div>
-  )
-}
-
-interface ServiceLocationItemProps {
-  children: React.ReactNode
-}
-
-function ServiceLocationItem({
-  children,
-}: ServiceLocationItemProps): React.ReactElement {
-  return (
-    <span className="h-14 px-7 rounded-full bg-surface border border-border flex justify-center items-center font-semibold transition-all duration-300 hover:scale-95 cursor-pointer">
-      {children}
-    </span>
-  )
-}
+const locations = data.serviceLocations as string[]
+const services = data.services as ServiceData[]
 
 export function ServiceSection(): React.ReactElement {
   return (
-    <section className="flex flex-col py-20 tablet:py-36">
+    <section className="flex flex-col py-20 tablet:py-36" id="services">
       <div className="flex flex-col items-center container mx-auto px-5 tablet:px-0">
         <SectionLabel>Pelayanan & paket perjalanan</SectionLabel>
 
@@ -81,14 +24,14 @@ export function ServiceSection(): React.ReactElement {
           transportasi khusus untuk bali, jawa dan lombok
         </p>
 
-        <div className="flex items-center mt-16 gap-4">
+        <div className="flex flex-wrap items-center mt-10 tablet:mt-16 gap-4">
           {locations.map((location, index) => (
             <ServiceLocationItem key={index}>{location}</ServiceLocationItem>
           ))}
         </div>
 
-        <div className="flex mt-36 w-full">
-          <div className="grid grid-cols-4 gap-4 w-10/12 mx-auto">
+        <div className="flex mt-16 tablet:mt-36 w-full">
+          <div className="grid grid-cols-2 tablet:grid-cols-4 gap-4 gap-y-10 tablet:gap-y-16 w-full tablet:w-10/12 mx-auto">
             {services.map((item, index) => (
               <ServiceItem data={item} key={index} />
             ))}

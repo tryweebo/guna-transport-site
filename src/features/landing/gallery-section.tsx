@@ -3,6 +3,8 @@ import { SectionLabel } from '@shared/components/common/section-label'
 import * as React from 'react'
 import landingData from './landing-data.json'
 import { HeroGalleryItem } from './hero-gallery-item'
+import { Button } from '@shared/components/ui/button'
+import Link from 'next/link'
 
 const heroGalleries = landingData.heroGalleries as string[]
 
@@ -20,6 +22,16 @@ export function GallerySection(): React.ReactElement {
           Momen kami bersama pelanggan di setiap perjalanan dan tujuan. Kami
           mengabdikan semuanya untuk kamu lihat bagaimana kami berkerja
         </p>
+
+        <div className="flex items-center mt-16">
+          <Button
+            className="transition-all duration-300 hover:scale-95"
+            size={'lg'}
+            asChild
+          >
+            <Link href={'/moments'}>Lihat moment lainnya</Link>
+          </Button>
+        </div>
       </div>
 
       <div className="flex mt-36">

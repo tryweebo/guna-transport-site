@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "icon": "fi fi-rr-phone-call",
+      "title": "Telpon",
+      "description": "Hubungi kami di +62 877 7278 8651 (Komang Dika)",
+      "url": "+6287772788651"
+    },
+    {
+      "icon": "fi fi-rr-envelope",
+      "title": "Kirim email",
+      "description": "Kirim email kamu ke alamat higunatransport@gmail.com",
+      "url": "higunatransport@gmail.com"
+    },
+    {
+      "icon": "fi fi-brans-whatsapp",
+      "title": "Chat WhatsApp",
+      "description": "Chat admin melalui whatsapp, tanya tanya apapun mengenai transportasi",
+      "url": "https://api.whatsapp.com/send?phone=6287772788651&ref=gunatransport"
+    },
+    {
+      "icon": "fi fi-brans-facebook",
+      "title": "Facebook",
+      "description": "Tanya tanya melalui facebook ke admin kami sekaligus konsultasi",
+      "url": "https://www.facebook.com/profile.php?id=100085617862556"
+    },
+    {
+      "icon": "fi fi-rr-marker",
+      "title": "Alamat",
+      "description": "(Komang Redika) BR. Dinas Menasa, Desa Sinabun, Kec Sawan, Kab. Buleleng, Bali",
+      "url": "https://www.google.com/maps/@-8.1058419,115.1383523,17.22z?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"
+    }
+  ]
+}

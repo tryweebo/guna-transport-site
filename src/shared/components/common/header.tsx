@@ -9,7 +9,7 @@ function Brand(): React.ReactElement {
       href={'/'}
       className="flex items-center gap-3 transition-all duration-300 hover:scale-95"
     >
-      <i className="fi fi-rr-compass-north text-xl" />
+      <i className="fi fi-rr-compass-north text-xl rotate-45" />
       <span className="font-semibold">Guna Transport</span>
     </Link>
   )
