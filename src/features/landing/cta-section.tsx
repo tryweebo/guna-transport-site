@@ -1,12 +1,26 @@
+'use client'
+
 import { SectionLabel } from '@shared/components/common/section-label'
 import { Button } from '@shared/components/ui/button'
 import Link from 'next/link'
 import * as React from 'react'
+import { motion } from 'motion/react'
 
 export function CTASection(): React.ReactElement {
   return (
     <section className="flex flex-col py-20 tablet:py-36" id="get-started">
-      <div className="flex flex-col items-center container mx-auto px-5 tablet:px-0">
+      <motion.div
+        initial={{ opacity: 0, y: 200 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 1.2,
+          delay: 0.2,
+          type: 'spring',
+          ease: 'linear',
+        }}
+        viewport={{ once: true }}
+        className="flex flex-col items-center container mx-auto px-5 tablet:px-0"
+      >
         <SectionLabel>Pesan & konsultasi</SectionLabel>
 
         <h2 className="text-3xl tablet:text-5xl font-medium mt-9 !leading-tight text-pretty tablet:w-7/12 text-center">
@@ -43,7 +57,7 @@ export function CTASection(): React.ReactElement {
             <Link href={'/contact'}>Tanya tanya dulu</Link>
           </Button>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

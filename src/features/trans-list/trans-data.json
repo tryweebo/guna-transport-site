@@ -1,0 +1,37 @@
+{
+  "list": [
+    {
+      "image": "https://images.unsplash.com/photo-1569448096483-1114dddb646d?q=80&w=2875&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Mega Bus",
+      "description": "Bus dengan kapasitas yang besar, mulai dari 30 - 40 kursi penumpang. Bus ini cocok untuk perjalanan jauh dengan kelompok.",
+      "items": [
+        "Kapasitas 30 - 40 kursi penumpang",
+        "Cocok untuk perjalanan jauh dengan kelompok",
+        "Lebih hemat untuk banyak orang",
+        "Perjalan nyaman"
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1577701517740-ad4aa1fc1000?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Mini Bus",
+      "description": "Bus dengan isian medium, mencapai 15 penumpang. Cocok untuk keluarga dan perjalan jauh.",
+      "items": [
+        "Kapasitas sampai 10 - 15 orang penumpang",
+        "Cocok untuk perjalanan sedang dan medium",
+        "Harga lebih murah",
+        "Lebih hemat"
+      ]
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1706117948467-91727d5ef03c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Mobile Pribadi",
+      "description": "Segala jenis mobil pribadi mulai dari mobile keluarga, pribadi, mewah, dan luxury",
+      "items": [
+        "Tersedia segala jenis mobil",
+        "Kapasitas 3 - 5 orang",
+        "Cocok untuk keluarga",
+        "Bagus untuk acara penting"
+      ]
+    }
+  ]
+}

@@ -31,7 +31,7 @@ export function ContactSection(): React.ReactElement {
         </div>
 
         <div className="flex w-full mt-36">
-          <div className="flex mx-auto w-10/12">
+          <div className="flex mx-auto tablet:w-10/12 w-full">
             <MapEmbed />
           </div>
         </div>

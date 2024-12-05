@@ -1,6 +1,7 @@
 import { mergeClass } from '@shared/utils/helper'
 import Image from 'next/image'
 import * as React from 'react'
+import { motion } from 'motion/react'
 
 export interface BenefitData {
   title: string
@@ -21,7 +22,16 @@ export function BenefitItem({
   const isReverse = position % 2 === 0
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 200 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 1.2,
+        delay: 0.2,
+        type: 'spring',
+        ease: 'linear',
+      }}
+      viewport={{ once: true, margin: '-100px 0px' }}
       className={mergeClass(
         'flex flex-col tablet:flex-row items-center gap-10 tablet:gap-20 cursor-pointer',
         isReverse && 'tablet:flex-row-reverse',
@@ -46,6 +56,6 @@ export function BenefitItem({
           {description}
         </p>
       </div>
-    </div>
+    </motion.div>
   )
 }

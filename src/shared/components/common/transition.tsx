@@ -1,7 +1,7 @@
 'use client'
 
+import { useAnimate, spring } from 'motion/react'
 import * as React from 'react'
-import { motion } from 'motion/react'
 
 interface PageTransitionProps {
   children: React.ReactNode
@@ -10,19 +10,15 @@ interface PageTransitionProps {
 export function PageTransition({
   children,
 }: PageTransitionProps): React.ReactElement {
-  return (
-    <motion.div
-      initial={{ y: 100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{
-        type: 'spring',
-        damping: 8,
-        stiffness: 60,
-        ease: 'easeInOut',
-        duration: '.7',
-      }}
-    >
-      {children}
-    </motion.div>
-  )
+  const [scope, animate] = useAnimate()
+
+  React.useEffect(() => {
+    animate(
+      scope.current,
+      { y: [200, 0], opacity: [0, 1], delay: 0.2, scale: [0.8, 1] },
+      { duration: 1.2, type: spring, ease: 'linear' },
+    )
+  }, [])
+
+  return <div ref={scope}>{children}</div>
 }
