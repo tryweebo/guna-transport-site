@@ -26,23 +26,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date().toISOString(),
     },
     {
-      url: `${BASE_URL}/crafts`,
+      url: `${BASE_URL}/trans-list`,
       lastModified: new Date().toISOString(),
     },
     {
-      url: `${BASE_URL}/journeys`,
-      lastModified: new Date().toISOString(),
-    },
-    {
-      url: `${BASE_URL}/stories`,
-      lastModified: new Date().toISOString(),
-    },
-    {
-      url: `${BASE_URL}/terms`,
-      lastModified: new Date().toISOString(),
-    },
-    {
-      url: `${BASE_URL}/works`,
+      url: `${BASE_URL}/moments`,
       lastModified: new Date().toISOString(),
     },
   ]
